@@ -38,9 +38,6 @@ nav.dark {
   background-color: #21222a;
 }
 
-nav.light {
-  background-color: white;
-}
 
 .nav--logo_icon {
   width: 30px;
@@ -90,10 +87,12 @@ nav.dark .toggler--slider {
   width: 13px;
   background-color: white;
   border-radius: 50%;
+  transition: 0.4s;
 }
 
 nav.dark .toggler--slider--circle {
   background-color: black;
+  transition: 0.4s;
 }
 
 .toggler--light {
@@ -131,12 +130,6 @@ main.dark {
   background-image: url("./images/react-icon-dark.png");
   background-color: #282d35;
   color: white;
-}
-
-main.light {
-  background-image: url("./images/react-icon-dark.png");
-  background-color: white;
-  color: #282d35;
 }
 
 .main--title {
